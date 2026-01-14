@@ -28,6 +28,6 @@ def predict():
         prediction = dtr.predict(transformed_features).reshape(1,-1)
 
         return render_template('index.html',prediction = prediction[0][0])
-
+#Rutuja
 if __name__=="__main__":
     app.run(debug=True)
